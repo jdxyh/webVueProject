@@ -34,5 +34,22 @@ cd my-project<br />
 npm install<br />
 npm run dev(npm run start)<br />
 4 查阅Vue目录结构，查看目录结构下各文件的作用<br />
-# 三：
+# 三：项目Coding开始
+1 对项目中的index.html<mete></meta>配置进行优化。
+<meta name="viewport" content="width=device-width,initial-scale=1.0,
+    	minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+2 引入 reset.css和border.css文件，统一初始化样式，1像素边框问题<br />
+在main.js中导入<br />
+import '@/assets/styles/reset.css'<br />
+import '@/assets/styles/border.css'<br />
+3 引入fastclick库文件，决绝300毫秒延时:
+npm install fastclick --save<br />
+在main.js中导入<br />
+import fastClick from 'fasterclick'
+fastClick.attach(document.body)
+4 引入iconfont图标，进入网站iconfont进行项目管理<br />
+选择图标，加入购物车，打包下载
+ 
+
+	
 
