@@ -75,15 +75,15 @@ import HomeHeader from './components/Header'<br />
 
 # 六：首页轮播Swiper.vue图开发
 1 git 创建分支，以便企业中的代码回滚，分类整合等。git分支相关命令<br />
-2 借助第三方的轮播插件，实现图片轮播效果图
-进入git 搜索 vue-awesome-swiper,查看相关的帮助文档导入项目中
-npm install vue-awesome-swiper@2.6.7 --save
+2 借助第三方的轮播插件，实现图片轮播效果图<br />
+进入git 搜索 vue-awesome-swiper,查看相关的帮助文档导入项目中<br />
+npm install vue-awesome-swiper@2.6.7 --save<br />
 3 实现轮播效果，在引入第三发插件后，标签<swiper></swiper>中添加一个图片标签，
-在<script></script>中取得图片所在块的标签，作列表循环，实现轮播效果。
-4 git命令把分支上的内容合并到master中
-git checkout master
-git merge origin/index-swiper
-git push
+在<script></script>中取得图片所在块的标签，作列表循环，实现轮播效果。<br />
+4 git命令把分支上的内容合并到master中<br />
+git checkout master<br />
+git merge origin/index-swiper<br />
+git push<br />
 
 
 
