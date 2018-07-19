@@ -49,7 +49,44 @@ import fastClick from 'fasterclick'
 fastClick.attach(document.body)
 4 引入iconfont图标，进入网站iconfont进行项目管理<br />
 选择图标，加入购物车，打包下载
- 
+# 四：首页Header.vue区域开发
+1 使用 stylus 样式开发 <br />
+npm install stylus --save<br />
+npm install stylus-loader --save<br />
+2 拆分Home.vue大组件为多个小组件，创建Header.vue组件<br /><br />
+在Home.vue大组件中导入Header.vue<br />
+import HomeHeader from './components/Header'<br />
+在Home.vue组件声明中添加Header.vue<br />
+3 再样式中应用 stylus<br />
+<style lang = "stylus" scoped><br />
+</style><br />
+# 五：iconfont的使用和代码优化<br />
+1 进入iconfont中搜索要的图标，放入购物车，打包下载<br />
+在<template><template>中添加使用<br />
+<span class  = "iconfont">添加引入代码（如）&#xe624</span><br />
+2 抽取通用颜色，添加到自定义varibles.styl文件<br />
+导入（样式中引入其他样式，需要@）<br />
+@import '@assets/stylus/varibles.styl'<br />
+3 在全局配置build/webpack.base.conf.js中配置自定义快捷导入<br />
+# 六：首页轮播Swiper.vue图开发
+1 git 创建分支，以便企业中的代码回滚，分类整合等。git分支相关命令<br />
+2 借助第三方的轮播插件，实现图片轮播效果图
+进入git 搜索 vue-awesome-swiper,查看相关的帮助文档导入项目中
+npm install vue-awesome-swiper@2.6.7 --save
+3 实现轮播效果，在引入第三发插件后，标签<swiper></swiper>中添加一个图片标签，
+在<script></script>中取得图片所在块的标签，作列表循环，实现轮播效果。
 
-	
+
+
+
+
+
+
+
+
+
+
+
+
+
 
