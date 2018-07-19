@@ -24,6 +24,7 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 
 # 一：项目实现的需求：
 1 模仿'去哪儿'界面，实现简单的功能浏览操作<br />
+
 # 二：运行环境搭建
 1 下载 node.js 项目管理工具,使之能运行npm包管理工具<br />
 2 选用git仓库托管平台,github 码云等,操作简单的git命令<br />
@@ -34,6 +35,7 @@ cd my-project<br />
 npm install<br />
 npm run dev(npm run start)<br />
 4 查阅Vue目录结构，查看目录结构下各文件的作用<br />
+
 # 三：项目Coding开始
 1 对项目中的index.html<mete></meta>配置进行优化。
 <meta name="viewport" content="width=device-width,initial-scale=1.0,
@@ -48,7 +50,8 @@ npm install fastclick --save<br />
 import fastClick from 'fasterclick'
 fastClick.attach(document.body)
 4 引入iconfont图标，进入网站iconfont进行项目管理<br />
-选择图标，加入购物车，打包下载
+选择图标，加入购物车，打包下载<br />
+
 # 四：首页Header.vue区域开发
 1 使用 stylus 样式开发 <br />
 npm install stylus --save<br />
@@ -60,6 +63,7 @@ import HomeHeader from './components/Header'<br />
 3 再样式中应用 stylus<br />
 <style lang = "stylus" scoped><br />
 </style><br />
+
 # 五：iconfont的使用和代码优化<br />
 1 进入iconfont中搜索要的图标，放入购物车，打包下载<br />
 在<template><template>中添加使用<br />
@@ -68,6 +72,7 @@ import HomeHeader from './components/Header'<br />
 导入（样式中引入其他样式，需要@）<br />
 @import '@assets/stylus/varibles.styl'<br />
 3 在全局配置build/webpack.base.conf.js中配置自定义快捷导入<br />
+
 # 六：首页轮播Swiper.vue图开发
 1 git 创建分支，以便企业中的代码回滚，分类整合等。git分支相关命令<br />
 2 借助第三方的轮播插件，实现图片轮播效果图
@@ -75,6 +80,12 @@ import HomeHeader from './components/Header'<br />
 npm install vue-awesome-swiper@2.6.7 --save
 3 实现轮播效果，在引入第三发插件后，标签<swiper></swiper>中添加一个图片标签，
 在<script></script>中取得图片所在块的标签，作列表循环，实现轮播效果。
+4 git命令把分支上的内容合并到master中
+git checkout master
+git merge origin/index-swiper
+git push
+
+
 
 
 
