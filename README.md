@@ -85,6 +85,9 @@ git checkout master<br />
 git merge origin/index-swiper<br />
 git push<br />
 
+# 七: 首页图标区域制作
+1 图标布局以及排版<br />
+2 图标拖动逻辑优化<br />
 
 
 

@@ -39,14 +39,13 @@ export default {
 <style lang = "stylus" scoped>
   //组件样式进行穿透
   .wrapper >>> .swiper-pagination-bullet-active
-    background : #ffffff !important
-  //解决画面抖动方案
+    background: #fff
   .wrapper
     overflow: hidden
-    width:100%
+    width: 100%
     height: 0
-    padding-bottom: 31.25%
-    background : #eee
-   .swiper-img
-      width:100%
+    padding-bottom: 27%
+    background: #eee
+    .swiper-img
+      width: 100%
 </style>
