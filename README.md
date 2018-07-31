@@ -53,7 +53,7 @@ fastClick.attach(document.body)
 选择图标，加入购物车，打包下载<br />
 
 # 四：首页Header.vue区域开发
-1 使用 stylus 样式开发 <br />
+1 使用 stylus(预处理框架) 样式开发 <br />
 npm install stylus --save<br />
 npm install stylus-loader --save<br />
 2 拆分Home.vue大组件为多个小组件，创建Header.vue组件<br /><br />
@@ -85,9 +85,12 @@ git checkout master<br />
 git merge origin/index-swiper<br />
 git push<br />
 
-# 七: 首页图标区域制作
+# 七: 首页图标区域编码
 1 图标布局以及排版<br />
 2 图标拖动逻辑优化<br />
+
+# 八： 热销推荐&周末去哪儿区域编码
+1 两个板块的模式相当，定义wrapper撑开图片区域，加入图片即可
 
 
 
