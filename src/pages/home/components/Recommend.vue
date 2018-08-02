@@ -2,7 +2,7 @@
 	<div>
 		<div class="title">热销推荐</div>
 		<ul>
-			<li class="item border-bottom" v-for="item of recommendList" :key="item.id">
+			<li class="item border-bottom" v-for="item of list" :key="item.id">
         <img class="item-img" :src="item.imgUrl"/>
         <div class="item-info">
           <p class="item-title">{{item.title}}</p>
@@ -17,25 +17,8 @@
 <script>
 export default {
   name: 'HomeRecommend',
-  data () {
-    return {
-      recommendList: [{
-        id: '0001',
-        imgUrl: 'http://img1.qunarzz.com/sight/p0/1603/3b/3bd311262ee06d8c90.img.jpg_200x200_c118d7da.jpg',
-        title: '广州长隆路由度假区',
-        desc: '番禺区首站，度假旅游的好去处'
-      }, {
-        id: '0002',
-        imgUrl: 'http://img1.qunarzz.com/sight/p0/1603/3b/3bd311262ee06d8c90.img.jpg_200x200_c118d7da.jpg',
-        title: '广州长隆路由度假区',
-        desc: '番禺区首站，度假旅游的好去处'
-      }, {
-        id: '0003',
-        imgUrl: 'http://img1.qunarzz.com/sight/p0/1603/3b/3bd311262ee06d8c90.img.jpg_200x200_c118d7da.jpg',
-        title: '广州长隆路由度假区',
-        desc: '番禺区首站，度假旅游的好去处'
-      }]
-    }
+  props: {
+    list: Array
   }
 }
 </script>

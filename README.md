@@ -92,6 +92,12 @@ git push<br />
 # 八： 热销推荐&周末去哪儿区域编码
 1 两个板块的模式相当，定义wrapper撑开图片区域，加入图片即可
 
+# 九: 使用Ajax实现动态数据请求
+1 安装axios第三方模块
+npm install axios --save
+2 Ajax请求发送的逻辑思考
+
+
 
 
 
