@@ -24,7 +24,7 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 
 # 一：项目实现的需求：
 1 模仿'去哪儿'界面，实现简单的功能浏览操作<br />
-项目运行效果图1：![https://github.com/jdxyh/webVueProject/blob/master/src/assets/imgs/demo/vue1.JPG]
+项目运行效果图1：![效果图](https://github.com/jdxyh/webVueProject/blob/master/src/assets/imgs/demo/vue1.JPG)
 
 # 二：运行环境搭建
 1 下载 node.js 项目管理工具,使之能运行npm包管理工具<br />
